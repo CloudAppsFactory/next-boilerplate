@@ -19,7 +19,7 @@ import {
 } from "@Styled/Home";
 import { IStore } from "@Redux/IStore";
 import { HomeActions } from "@Actions";
-import { Heading, LocaleButton } from "@Components";
+import { Navbar,Heading, LocaleButton,InstituteSelection,FeatureTiles} from "@Components";
 // #endregion Local Imports
 
 // #region Interface Imports
@@ -44,7 +44,12 @@ const Home: NextPage<IHomePage.IProps, IHomePage.InitialProps> = ({
         ));
 
     return (
-        <Container>
+        <div style={Styles.main}>
+        <Navbar/>
+        <InstituteSelection/>
+        <FeatureTiles/>
+        {/* <Container>
+           
             <Top>
                 <img src="/images/pankod-logo.png" alt="Pankod Logo" />
             </Top>
@@ -56,6 +61,7 @@ const Home: NextPage<IHomePage.IProps, IHomePage.InitialProps> = ({
                 </MiddleLeft>
                 <MiddleRight>
                     <TopText>{t("common:Hello")}</TopText>
+                    
                     <Heading text={t("common:World")} />
                     <Apod>
                         <ApodButton
@@ -78,7 +84,8 @@ const Home: NextPage<IHomePage.IProps, IHomePage.InitialProps> = ({
                     </Apod>
                 </MiddleRight>
             </Middle>
-        </Container>
+        </Container> */}
+        </div>
     );
 };
 
@@ -94,5 +101,11 @@ Home.getInitialProps = async (
 };
 
 const Extended = withTranslation("common")(Home);
+
+const Styles = {
+    main:{
+        background:"#02042B"
+    }
+}
 
 export default Extended;
