@@ -1,0 +1,48 @@
+.mainparent{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+
+.para{
+    font-size: 11px;
+    max-width: fit-content;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.postername
+{
+    padding-left: 20px;
+    color: rgb(53, 127, 226);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.posterposition
+{
+    padding-left: 20px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.txtmain{
+    width: 40%;
+}
+
+.hrr{
+    border-bottom: solid 3px #2782F4;
+    width: 5%;
+    margin-right: auto;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    min-width: 50px
+}
+

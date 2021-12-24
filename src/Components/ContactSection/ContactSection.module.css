@@ -1,0 +1,68 @@
+.mainparent{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    color: #000;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    background: #EEEFF2;
+}
+
+.txtmain{
+    /* width: 40%; */
+}
+
+.hrr{
+    border-bottom: solid 3px #2782F4;
+    width: 5%;
+    margin-right: auto;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    min-width: 50px
+}
+
+.formrow
+{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.txtareaouter
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding-left: 5px;
+}
+
+.outrfrm
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.inptt
+{
+    margin: 5px;
+}
+
+.buttonn {
+    background: #2783F3;;
+    border: none;
+    color: white;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }

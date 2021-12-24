@@ -1,0 +1,32 @@
+.mainparent{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+
+.para{
+    font-size: 11px;
+    max-width: fit-content;
+}
+
+.txtmain{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hrr{
+    border-bottom: solid 3px #2782F4;
+    width: 5%;
+    margin-right: auto;
+    padding-top: 15px;
+    margin-bottom: 35px;
+    min-width: 50px
+}

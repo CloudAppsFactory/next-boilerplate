@@ -19,7 +19,7 @@ import {
 } from "@Styled/Home";
 import { IStore } from "@Redux/IStore";
 import { HomeActions } from "@Actions";
-import { Navbar,Heading, LocaleButton,InstituteSelection,FeatureTiles} from "@Components";
+import { Navbar,ClientsSay,LocaleButton,InstituteSelection,FeatureTiles,WelcomeSection,Testimonials,ContactSection} from "@Components";
 // #endregion Local Imports
 
 // #region Interface Imports
@@ -48,6 +48,10 @@ const Home: NextPage<IHomePage.IProps, IHomePage.InitialProps> = ({
         <Navbar/>
         <InstituteSelection/>
         <FeatureTiles/>
+        <WelcomeSection/>
+        <Testimonials/>
+        <ClientsSay/>
+        <ContactSection/>
         {/* <Container>
            
             <Top>

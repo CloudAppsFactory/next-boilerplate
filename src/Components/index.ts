@@ -5,3 +5,7 @@ export { Heading } from "@Components/Heading";
 export { LocaleButton } from "@Components/LocaleButton";
 export { InstituteSelection } from "@Components/InstituteSelection";
 export { FeatureTiles } from "@Components/FeatureTiles";
+export { WelcomeSection } from "@Components/WelcomeSection";
+export { Testimonials } from "@Components/Testimonials";
+export { ClientsSay } from "@Components/ClientsSay";
+export { ContactSection } from "@Components/ContactSection";

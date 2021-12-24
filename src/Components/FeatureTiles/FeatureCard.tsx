@@ -7,14 +7,6 @@ interface Props {
     isFullImg:boolean
   }
 
-// export const FeatureCard: React.FunctionComponent =(text)=>
-// {
-//     return (
-//         <div>
-//            {text}
-//         </div>
-//     )
-// }
 
 export const FeatureCard: NextPage<Props> = ({ text , icon ,isFullImg }) => (
       
