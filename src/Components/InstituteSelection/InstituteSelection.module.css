@@ -1,0 +1,23 @@
+.maindiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #FFF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;     
+    }
+
+    /* display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+        color: "#fff",
+        paddingTop: "30px",
+        paddingBottom: "30px",
+        width: '90%',
+        marginLeft: 'auto',
+        marginRight: 'auto',
+        flexWrap: 'wrap', */

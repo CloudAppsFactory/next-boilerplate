@@ -1,0 +1,45 @@
+/* .imgBrdr{
+      background: #2783F3,
+      width: "50px",
+      height: "50px",
+      padding: "12px",
+      borderRadius: "100%"
+  },
+.txtstyl{
+      width: "100px",
+      fontSize: "13px",
+      fontWeight: "bold",
+      marginTop: "10px",
+      margin: "15px 12px 0px 12px"
+  }
+.outrcrd{
+  padding: "20px",
+  textAlign: "center",
+  background:"#fff",
+  borderRadius:"20px",
+  margin:"20px 20px 20px"
+  } */
+  .imgBrdr{
+      background: #2783F3;
+      width: 70px;
+      height: 70px;
+      padding: 12px;
+      border-radius: 100%;
+  }
+  .text{
+   /* width: 100px; */
+   font-size: 20px;
+   font-weight: bold;
+   text-align: center;
+   margin-top: 10px;
+   /* margin: 15px 12px 0px 12px; */
+   }
+  .outrCard{
+      width: 200px;
+      height: 200px;
+      padding: 20px;
+      text-align: center;
+      background: #FFF;
+      border-radius: 20px;
+      margin: 20px 20px 20px;
+  }

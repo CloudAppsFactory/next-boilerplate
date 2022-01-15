@@ -1,50 +1,36 @@
 import * as React from "react";
+import styles from './InstituteDropDown.module.css';
 
 export const InstituteDropDown: React.FunctionComponent = (): JSX.Element => {
     return (
-        <div style={Styles.main}>
-            <div style={{fontWeight:"bold"}}>
+        <div className={styles.main}>
+            <div className={styles.title}>
             Fees bharna online hua 
             <br/>
             ab aasan !
             </div>
 
             <br/>
-            <div style={{fontSize:'20px',alignSelf: 'flex-start'}}>
+            <div className={styles.dropDown}>
                 Select School*
             </div>
-            <div style={{fontSize:'20px',alignSelf: 'flex-start'}}>
+            <div className={styles.dropDown}>
             <div >
-    <input id="myInput" type="text" name="myCountry" placeholder="Select" />
+             {/* <select className={styles.inputText}  id="myInput"  name="myCountry" placeholder="Select Your School" /> */}
+
+             <select className={styles.inputText}  id="myInput"  name="myCountry">
+                <option selected>Select Your School</option>
+                <option value="0">Smt Sulochanadevi Singhania School</option>
+                <option value="1">Dhirubhai Ambani International School</option>
+                <option value="2">The Cathedral & John Connon School</option>
+                <option value="3">Campion School</option>
+            </select>
   </div>
 
   <div>
-  <button style={Styles.btnn}>Submit</button>
+  <button className={styles.btnn}>Submit</button>
   </div>
             </div>
         </div>
     );
 };
-
-const Styles = {
-    main:{
-    height: "250px",
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    fontSize: '30px',
-    flexDirection:'column'
-    },
-    btnn:{
-        color:"#fff",background:"#2783F3",
-  border:"none",
-  padding: "10px 28px",
-  textAlign: "center",
-  textDecoration: "none",
-  display: "inline-block",
-  fontSize: "16px",
-  margin: "4px 2px",
-  cursor: "pointer",
-  marginTop:"10px"
-  }
-}

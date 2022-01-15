@@ -8,4 +8,4 @@ export { FeatureTiles } from "@Components/FeatureTiles";
 export { WelcomeSection } from "@Components/WelcomeSection";
 export { Testimonials } from "@Components/Testimonials";
 export { ClientsSay } from "@Components/ClientsSay";
-export { ContactSection } from "@Components/ContactSection";
+export { ContactSection } from "@Components/ContactSection"; 

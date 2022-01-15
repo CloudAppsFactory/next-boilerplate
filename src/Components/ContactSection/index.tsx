@@ -33,7 +33,7 @@ export const ContactSection: React.FunctionComponent = (): JSX.Element => {
            </div>
 
            <div className={styles.txtareaouter}>
-           <textarea style={{width:"-webkit-fill-available"}} placeholder="Your Message" ></textarea>
+           <textarea className={styles.textArea} placeholder="Your Message" ></textarea>
            </div>
 
            <div className={styles.formrow}>
