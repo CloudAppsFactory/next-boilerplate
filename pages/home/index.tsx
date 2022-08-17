@@ -6,17 +6,6 @@ import { useSelector, useDispatch } from "react-redux";
 
 // #region Local Imports
 import { withTranslation } from "@Server/i18n";
-import {
-    Container,
-    Top,
-    TopText,
-    Middle,
-    MiddleLeft,
-    MiddleLeftButtons,
-    MiddleRight,
-    Apod,
-    ApodButton,
-} from "@Styled/Home";
 import { IStore } from "@Redux/IStore";
 import { HomeActions } from "@Actions";
 import { Navbar,ClientsSay,LocaleButton,InstituteSelection,FeatureTiles,WelcomeSection,Testimonials,ContactSection} from "@Components";
@@ -44,7 +33,8 @@ const Home: NextPage<IHomePage.IProps, IHomePage.InitialProps> = ({
         ));
 
     return (
-        <div style={Styles.main}>
+        <div style={{    background:"#02042B",
+        scrollBehavior:'smooth'}}>
         <Navbar/>
         <InstituteSelection/>
         <FeatureTiles/>
@@ -52,43 +42,6 @@ const Home: NextPage<IHomePage.IProps, IHomePage.InitialProps> = ({
         <Testimonials/>
         <ClientsSay/>
         <ContactSection/>
-        {/* <Container>
-           
-            <Top>
-                <img src="/images/pankod-logo.png" alt="Pankod Logo" />
-            </Top>
-            <Middle>
-                <MiddleLeft>
-                    <MiddleLeftButtons>
-                        {renderLocaleButtons(i18n.language)}
-                    </MiddleLeftButtons>
-                </MiddleLeft>
-                <MiddleRight>
-                    <TopText>{t("common:Hello")}</TopText>
-                    
-                    <Heading text={t("common:World")} />
-                    <Apod>
-                        <ApodButton
-                            onClick={() => {
-                                dispatch(
-                                    HomeActions.GetApod({
-                                        params: { hd: false },
-                                    })
-                                );
-                            }}
-                        >
-                            Discover Space
-                        </ApodButton>
-                        <img
-                            src={home.image.url}
-                            height="300"
-                            width="150"
-                            alt="Discover Space"
-                        />
-                    </Apod>
-                </MiddleRight>
-            </Middle>
-        </Container> */}
         </div>
     );
 };
@@ -108,7 +61,8 @@ const Extended = withTranslation("common")(Home);
 
 const Styles = {
     main:{
-        background:"#02042B"
+        background:"#02042B",
+        scrollBehavior:'smooth'
     }
 }
 

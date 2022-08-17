@@ -5,7 +5,7 @@ import { INavbar } from "./Navbar";
 const Navbar: React.FunctionComponent<INavbar.IProps> = (): JSX.Element => {
     return <div className={styles.mainparent} >
         <div>
-        <img src="/images/svg/feebharologo.svg" width="100%" height="50px" />
+        <img draggable={false} src="/images/svg/feebharologo.svg" width="100%" height="50px" />
             
         </div>
         <div className={styles.btns}>

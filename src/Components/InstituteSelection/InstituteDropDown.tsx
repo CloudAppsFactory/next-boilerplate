@@ -2,7 +2,14 @@ import * as React from "react";
 
 export const InstituteDropDown: React.FunctionComponent = (): JSX.Element => {
     return (
-        <div style={Styles.main}>
+        <div style={{
+            height: "250px",
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            fontSize: '30px',
+            flexDirection:'column'
+            }}>
             <div style={{fontWeight:"bold"}}>
             Fees bharna online hua 
             <br/>
@@ -19,7 +26,18 @@ export const InstituteDropDown: React.FunctionComponent = (): JSX.Element => {
   </div>
 
   <div>
-  <button style={Styles.btnn}>Submit</button>
+  <button style={{
+        color:"#fff",background:"#2783F3",
+  border:"none",
+  padding: "10px 28px",
+  textAlign: "center",
+  textDecoration: "none",
+  display: "inline-block",
+  fontSize: "16px",
+  margin: "4px 2px",
+  cursor: "pointer",
+  marginTop:"10px"
+  }}>Submit</button>
   </div>
             </div>
         </div>

@@ -7,7 +7,18 @@ import { SlantDiv } from "./slantDiv";
 export const InstituteSelection: React.FunctionComponent = (): JSX.Element => {
     return (
         <>
-            <div style={Styles.maindiv}>
+            <div style={{
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+        color: "#fff",
+        paddingTop: "30px",
+        paddingBottom: "30px",
+        width: '90%',
+        marginLeft: 'auto',
+        marginRight: 'auto',
+        flexWrap: 'wrap',
+    }}>
                 <InstituteDropDown />
                 <LineArt />
             </div>
