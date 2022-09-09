@@ -1,13 +1,5 @@
 {
-  "/404": "pages/404.js",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/_error": "pages/_error.js",
-  "/api/health-check": "pages/api/health-check.js",
-  "/api/payment/createpayment": "pages/api/payment/createpayment.js",
-  "/api/payment/validatepayment": "pages/api/payment/validatepayment.js",
-  "/api/student": "pages/api/student.js",
-  "/api/student/login": "pages/api/student/login.js",
-  "/api/test/add": "pages/api/test/add.js",
-  "/home": "pages/home.js"
+  "/_error": "pages/_error.js"
 }

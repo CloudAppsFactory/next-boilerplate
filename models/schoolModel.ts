@@ -15,6 +15,10 @@ const schoolSchema = new Schema({
     type: String,
     required: [true,"Address is required"],
   },
+  city:{
+    type: String,
+    required: [true,"Address is required"],
+  },
   pincode: {
     type: String
   },
